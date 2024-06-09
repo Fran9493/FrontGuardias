@@ -3,4 +3,4 @@ services:
     name: frontend
     env: node
     buildCommand: npm install && npm run build
-    startCommand: npx http-server dist/your-project-name
+    startCommand: npx http-server dist/frontend
